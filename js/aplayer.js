@@ -1,17 +1,15 @@
-!(function() {
-  var oldLoadAp = window.onload;
-  window.onload = function () {
-    oldLoadAp && oldLoadAp();
-
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: false,
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'none',
-      audio: [
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: true,
+    mini: true,
+    autoplay: false,
+    theme: '#FADFA3',
+    loop: 'all',
+    order: 'random',
+    preload: 'none',
+    volume: 0.7,
+    lrcType: 3,
+    audio: [
         {
           name: 'Aruarian Dance',
           artist: 'Nujabes',
@@ -25,7 +23,5 @@
           cover: '/img/Unstoppable.jpg'
           lrc: '/songs/Unstoppable.lrc'
         }
-      ]
-    });
-  }
-})();
+    ]
+});
