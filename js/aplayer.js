@@ -23,6 +23,7 @@
           artist: 'FKJ',
           url: '/songs/song2.mp3',
           cover: '/img/Unstoppable.jpg'
+          lrc: '/songs/Unstoppable.lrc'
         }
       ]
     });
