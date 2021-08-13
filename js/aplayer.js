@@ -17,6 +17,12 @@
           artist: 'Nujabes',
           url: '/songs/song1.mp3',
           cover: '/img/Nujabes.png'
+        },
+        {
+          name: 'Unstoppable',
+          artist: 'FKJ',
+          url: '/songs/song2.mp3',
+          cover: '/img/Unstoppable.jpg'
         }
       ]
     });
