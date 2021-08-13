@@ -20,7 +20,7 @@ const ap = new APlayer({
           name: 'Unstoppable',
           artist: 'FKJ',
           url: '/songs/song2.mp3',
-          cover: 'Unstoppable .jpg',
+          cover: 'Unstop.png',
           lrc: '/songs/Unstoppable.lrc'
         }
     ]
