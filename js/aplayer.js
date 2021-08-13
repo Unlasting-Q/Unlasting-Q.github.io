@@ -20,7 +20,7 @@ const ap = new APlayer({
           name: 'Unstoppable',
           artist: 'FKJ',
           url: '/songs/song2.mp3',
-          cover: '/img/Unstop.png',
+          cover: 'https://i.loli.net/2021/08/13/SOaNv81fiFRlwkp.jpg',
           lrc: '/songs/Unstoppable.lrc'
         }
     ]
