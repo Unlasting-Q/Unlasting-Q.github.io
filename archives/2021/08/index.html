@@ -345,7 +345,7 @@
         success: function (result) {
           var text;
           if (result) {
-            var keys = 'Content,Author,Source,ID'.split('.')
+            var keys = 'Content,Author,Source,ID'.split(',')
             if (result instanceof Array) {
               result = result[0]
             }
