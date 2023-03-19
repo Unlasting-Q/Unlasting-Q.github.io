@@ -508,6 +508,12 @@ overflows table td {
   font-size: 0.875em;
   color: #6a737d;
 }
+.round-image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  zoom: 50%;
+}
 .archives {
   position: relative;
   max-width: var(--content-width);
